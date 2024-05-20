@@ -4,12 +4,12 @@
     options.ethorbit.home-manager.git = with lib; {
         user = {
             email = mkOption {
-                description = "Your GitHub email";
+                description = "Your email";
                 default = "Ethorbit@protonmail.com";
             };
 
             name = mkOption {
-                description = "Your GitHub username";
+                description = "Your username";
                 default = "Ethorbit";
             };
         };
